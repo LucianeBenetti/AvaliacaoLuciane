@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".View.MainActivity"
+    style="@style/container">
+
+    <TextView
+
+        style="@style/titulo"
+        android:text="@string/configuracao"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:orientation="horizontal">
+
+        <EditText
+            style="@style/edit_text_lado_a_lado"
+            android:hint="@string/hint_min"
+            android:inputType="number"
+            android:id="@+id/editTextMinimo"/>
+
+        <EditText
+
+            style="@style/edit_text_lado_a_lado"
+            android:hint="@string/hint_max"
+            android:inputType="number"
+            android:id="@+id/editTextMaximo"/>
+
+    </LinearLayout>
+
+    <Button
+       style="@style/btn_sucesso"
+        android:text="@string/enviar"
+        android:onClick="enviar"
+        android:id="@+id/enviar"/>
+
+    <Button
+        style="@style/btn_sucesso"
+        android:text="@string/fechar"
+        android:onClick="fechar"
+        android:id="@+id/fechar"/>
+
+    <TextView
+        style="@style/texto_resultado"
+        android:id="@+id/tvResultado"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/layoutResultado">
+
+    </LinearLayout>
+
+</LinearLayout>

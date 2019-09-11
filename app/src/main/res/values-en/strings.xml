@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AvaliacaoLuciane</string>
+    <string name="acao_cancelada">Cancelled action</string>
+    <string name="cancelar">Cancel</string>
+    <string name="configuracao">Configuration</string>
+    <string name="enviar">Send</string>
+    <string name="fechar">Close</string>
+    <string name="hint_max">Maximum</string>
+    <string name="hint_min">Minimal</string>
+    <string name="hint_nome">Enter your name</string>
+    <string name="idade_invalida">Invalid age</string>
+    <string name="nome_invalido">Invalid name</string>
+    <string name="valida_config">The minimum must be less than or equal to the maximum</string>
+</resources>
